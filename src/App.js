@@ -1,8 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from './components/pages'
-import Navbar from './components/layout/Navbar';
+import Home from './components/pages/Home'
 
 //This part acts as our navigation (navbar and paths)
 function App() {
@@ -10,7 +9,6 @@ function App() {
     <div className="App">
         <Router>
             <div>
-                <Navbar/>
                 <Routes>
                     {/* If you want separate pages you would add them here */}
                     <Route path="/" element={<Home/>}></Route>

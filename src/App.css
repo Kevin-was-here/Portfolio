@@ -21,11 +21,13 @@ p {
 
 /* targets the root, global colors*/
 :root{
-    --primary: #0d1117;
-    --secondary: #282829;
-    --secondary-diff-dark: #181818;
-    --secondary-diff-light: #3b3b3c;
-    --highlight: #f5f5f7
+    --primary-bg: #0d1117;
+    --secondary-bg: #282829;
+    --secondary-bg-diff-dark: #181818;
+    --secondary-bg-diff-light: #3b3b3c;
+    --main-text: #ffffff;
+    --secondary-text: #f5f5f7;
+    --thirdary-text: #e6e6e6;
     --black: #000000;
     --white: #ffffff;
 }
@@ -63,7 +65,7 @@ p {
 
 .btn-outline-primary:hover{
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--primary-bg);
 }
 
 .btn-primary{
