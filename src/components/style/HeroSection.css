@@ -1,11 +1,13 @@
 .hero-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr); /*2 by 1 fraction */
-    padding: 133.333px 85.333px 133.333px;
+    padding: 85.333px 5%;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
     background-color: var(--primary-bg);
+    width: 90%; /* Use percentage for dynamic width */
+    margin: 0 auto; /* Center the section horizontally */
 }
 
 .hero-section-content-box{
