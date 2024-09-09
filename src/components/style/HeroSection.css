@@ -10,6 +10,7 @@
     margin: 0 auto; /* Center the section horizontally */
 }
 
+
 .hero-section-content-box{
     display: flex;
     flex-direction: column;
