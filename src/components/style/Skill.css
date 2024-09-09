@@ -1,10 +1,11 @@
 .skills-section{
     display: flex;
-    padding-left: 85.333px;
+    padding-left: 100px;
     padding-bottom: 50px;
     gap: 32px;
     background-color: var(--primary-bg);
     margin: auto;
+    justify-content: center;
 }
 
 .skills-section-content-box{
@@ -19,13 +20,15 @@
     font-size: 600;
     font-weight: 700;
     line-height: 50px;
-    align-self: stretch;
+    align-self: center;
 }
 
 .skills-section-container{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    width: auto;
+    align-items: flex-start;
 }
 
 .skill-section-block{
