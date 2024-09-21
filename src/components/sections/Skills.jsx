@@ -9,8 +9,8 @@ export default function Skills(){
                 <div className="skills-section-container">
                     {data?.skills?.map((item,index) => (
                         <div key={index} className="skill-section-block"> 
-                                <img src={item.src} alt="skill icon"/>
-                                <h6 className="skills-section-item-text">{item.title}</h6>    
+                            <img src={item.src} alt="skill icon"/>
+                            <h6 className="skills-section-item-text">{item.title}</h6>    
                         </div>
                     ))}
                 </div>
