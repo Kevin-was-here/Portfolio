@@ -19,7 +19,7 @@
 
 .portfolio-section-heading {
     color: var(--secondary-text);
-    font-size: 32px; /* Use a specific size instead of 600 */
+    font-size: 30px; /* Use a specific size instead of 600 */
     font-weight: 700;
     line-height: 50px;
     text-align: center; /* Center the title */
@@ -52,7 +52,6 @@
     border-radius: 8px; /* Optional: add rounded corners */
     border-color: red;
     margin: 5%;
-    position: relative;
 }
 
 .portfolio-section-project-title{
