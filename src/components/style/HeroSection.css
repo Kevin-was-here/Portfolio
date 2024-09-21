@@ -1,6 +1,6 @@
 .hero-section{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /*2 by 1 fraction */
+    grid-template-columns: 1fr 1fr; /*2 by 1 fraction */
     padding: 85.333px 5%;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,6 @@
     width: 90%; /* Use percentage for dynamic width */
     margin: 0 auto; /* Center the section horizontally */
 }
-
 
 .hero-section-content-box{
     display: flex;
@@ -48,19 +47,20 @@
 
 .hero-section-description{
     color: var(--secondary-text);
-    font-size: 24;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 25px;
 }
 
 .hero-section-image{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-section-img > img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero-section-socials{
@@ -70,10 +70,29 @@
 }
 
 .hero-section-socials > a > img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
 }
 
 .hero-section-socials > a > img:hover{
     cursor: pointer;
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+/* Media query for responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .hero-section {
+        grid-template-columns: 1fr; /* Stack content vertically on small screens */
+        text-align: center;
+    }
+
+    .hero-section-content {
+        align-items: center;
+    }
+
+    .hero-section-image {
+        order: -1; /* Move image above content */
+        margin-bottom: 20px; /* Add spacing */
+    }
 }
