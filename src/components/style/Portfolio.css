@@ -1,23 +1,102 @@
-.portfolio-section{
+.portfolio-section {
     display: flex;
+    flex-direction: column; /* Align everything vertically */
     padding-bottom: 83.333px;
     gap: 32px;
     background-color: var(--primary-bg);
     margin: auto;
     justify-content: center;
+    align-items: center; /* Center content horizontally */
 }
 
-.portfolio-section-content-box{
+.portfolio-section-content-box {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center; /* Ensure content inside is centered */
     gap: 32px;
+    width: 100%; /* Ensure it takes full width */
 }
 
-.portfolio-section-heading{
+.portfolio-section-heading {
     color: var(--secondary-text);
-    font-size: 600;
+    font-size: 32px; /* Use a specific size instead of 600 */
     font-weight: 700;
     line-height: 50px;
-    align-self: center;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add spacing between the title and the container */
+}
+
+.portfolio-section-container {
+    display: grid;
+    flex-wrap: wrap; /* Ensure portfolio cards are wrapping */
+    gap: 16px; /* Add spacing between the cards */
+    justify-content: center; /* Center the cards within the container */
+    width: 85%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.portfolio-section-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center each skill block */
+    text-align: center;
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    min-height: 400px; /* Set a consistent minimum height */
+    max-height: 400px; /* Ensure cards don't stretch taller */
+    overflow: hidden;
+    box-shadow:  0 0 15px #8aecb0b3; /* Add some depth to the cards */
+    border-radius: 8px; /* Optional: add rounded corners */
+    border-color: red;
+    margin: 5%;
+    position: relative;
+}
+
+.portfolio-section-project-title{
+    color: var(--main-text);
+}
+
+.portfolio-section-card-tools{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 8px; /* Space between the blocks */
+    flex-wrap: wrap; /* Ensure they wrap if necessary */
+    margin-bottom: 12px; /* Add spacing between tools and description */
+}
+
+.portfolio-section-card-description{
+    color: var(--secondary-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1; /* Allow the description to grow and push the GitHub icon down */
+}
+
+.portfolio-section-card-tool-block{
+    background-color: var(--secondary-bg-diff-light); /* Customize background color */
+    color: var(--main-text); /* Customize text color */
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section-card-github-img {
+    margin-top: auto; /* Push the image to the bottom */
+    margin-bottom: 10px; /* Add space from the bottom */
+}
+
+.portfolio-section-card-github-img > img {
+    width: 24px; /* Set a fixed width to make it visually clear */
+    height: 24px; /* Ensure it's square */
 }
