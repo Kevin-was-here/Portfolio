@@ -1,0 +1,37 @@
+/* WorkExp.css */
+.workexp-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 83.333px;
+    background-color: var(--primary-bg);
+    margin: auto;
+    gap: 32px;
+}
+
+.workexp-section-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.workexp-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #8aecb0b3;
+}
+
+.workexp-section-heading {
+    color: var(--secondary-text);
+    font-size: 30px; /* Use a specific size instead of 600 */
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+}

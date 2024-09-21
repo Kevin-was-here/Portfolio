@@ -1,0 +1,18 @@
+{
+    "workexp": [
+        {
+        "company": "Company 1",
+        "position": "Position 1",
+        "start": "2019-01-01",
+        "end": "2020-01-01",
+        "bulletPoints": ["Point 1 is about how much efficiency you brought to the company", "Point 2 is about how much you learned from the company", "Point 3 is about how much you enjoyed working at the company"]
+        },
+        {
+        "company": "Company 2",
+        "position": "Position 2",
+        "start": "2020-01-01",
+        "end": "2021-01-01",
+        "bulletPoints": ["Point 1 is about how much efficiency you brought to the company", "Point 2 is about how much you learned from the company", "Point 3 is about how much you enjoyed working at the company"]
+        }
+    ]
+}
