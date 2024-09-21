@@ -34,8 +34,6 @@
     width: 85%;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
-    flex-direction: column;
-    
 }
 
 .portfolio-section-card {
@@ -48,29 +46,35 @@
     min-height: 400px; /* Set a consistent minimum height */
     max-height: 400px; /* Ensure cards don't stretch taller */
     overflow: hidden;
-    box-shadow:  0 0 15px #8aecb0b3; /* Add some depth to the cards */
+    box-shadow: 0 0 15px #8aecb0b3; /* Add some depth to the cards */
     border-radius: 8px; /* Optional: add rounded corners */
-    border-color: red;
     margin: 5%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transition for smooth hover effect */
 }
 
-.portfolio-section-project-title{
+.portfolio-section-card:hover {
+    transform: scale(1.05); /* Lightly enlarge on hover */
+    box-shadow: 0 4px 20px #f9f9f9d3; /* Deepen the shadow on hover */
+    z-index: 10;
+}
+
+.portfolio-section-project-title {
     color: var(--main-text);
 }
 
-.portfolio-section-card-tools{
+.portfolio-section-card-tools {
     padding-top: 5px;
     padding-bottom: 5px;
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 8px; /* Space between the blocks */
     flex-wrap: wrap; /* Ensure they wrap if necessary */
     margin-bottom: 12px; /* Add spacing between tools and description */
 }
 
-.portfolio-section-card-description{
+.portfolio-section-card-description {
     color: var(--secondary-text);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -79,7 +83,7 @@
     flex-grow: 1; /* Allow the description to grow and push the GitHub icon down */
 }
 
-.portfolio-section-card-tool-block{
+.portfolio-section-card-tool-block {
     background-color: var(--secondary-bg-diff-light); /* Customize background color */
     color: var(--main-text); /* Customize text color */
     padding: 5px 10px;

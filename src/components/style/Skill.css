@@ -47,6 +47,7 @@
 
 .skill-section-block:hover {
     transform: scale(1.05); /* Optional: hover effect to enlarge slightly */
+    box-shadow: 0 2px 4px #f9f9f9d3;
 }
 
 .skills-section-img {
