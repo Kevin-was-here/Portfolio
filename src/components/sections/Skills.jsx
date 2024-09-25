@@ -5,7 +5,7 @@ export default function Skills(){
     return(
         <section id="skillsSection" className="skills-section">
             <div className="skills-section-content-box">
-                <h1 className="skills-section-heading">My technologies</h1>
+                <h1 className="skills-section-heading">My Technologies</h1>
                 <div className="skills-section-container">
                     {data?.skills?.map((item,index) => (
                         <div key={index} className="skill-section-block"> 

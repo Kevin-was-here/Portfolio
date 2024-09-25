@@ -47,7 +47,7 @@ function Navbar(){
                         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={0} duration={500} to="heroSection" className="navbar-content">Home</Link>
                     </li>
                     <li className="nav_item">
-                        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={5} duration={500} to="skillsSection" className="navbar-content">Tech</Link>
+                        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={5} duration={500} to="skillsSection" className="navbar-content">Technologies</Link>
                     </li>
                     <li className="nav_item">
                         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={5} duration={500} to="portfolioSection" className="navbar-content">Portfolio</Link>
