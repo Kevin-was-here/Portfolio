@@ -35,12 +35,12 @@ function Navbar(){
 
     return (
         <nav className={`navbar ${navActive? "active":""}`}>
-            <a className={`nav_hamburger ${navActive? "active" : ""}`} onClick={toggleNav}>
+            <button className={`nav_hamburger ${navActive? "active" : ""}`} onClick={toggleNav}>
                 {/* each bar of hamburger menu */}
                 <span className="nav_hamburger_line"></span>
                 <span className="nav_hamburger_line"></span>
                 <span className="nav_hamburger_line"></span>
-            </a>
+            </button>
             <div className = {`navbar-items ${navActive ? "active" : ""}`}>
                 <ul>
                     <li className="nav_item">
