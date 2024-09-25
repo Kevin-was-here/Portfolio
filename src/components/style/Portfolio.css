@@ -1,7 +1,7 @@
 .portfolio-section {
     display: flex;
     flex-direction: column; /* Align everything vertically */
-    padding-bottom: 83.333px;
+    padding-top: 83.333px;
     gap: 32px;
     background-color: var(--primary-bg);
     margin: auto;

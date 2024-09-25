@@ -9,14 +9,16 @@ export default function WorkExp(){
                 <div className="workexp-section-container">
                     {data?.workexp?.map((item,index) => (
                         <div key={index} className="workexp-section-card"> 
-                            <div classname = "workexp-company-position-duration-box">
-                                <div className="workexp-company-position-box"> 
-                                    <h3 className="workexp-company-title"> {item.company} </h3>
-                                    <h4 className="workexp-position-title"> {item.position} </h4>
+                            <div className="workexp-company-position-duration-box">
+                                <div className="workexp-company-position-box">
+                                    <h2 className="workexp-company-title"> {item.company} </h2>
+                                    <h3 className="workexp-position-title"> {item.position} </h3>
                                 </div>
-                                <h4 className="workexp-duration"> {item.start} - {item.end} </h4>
+                                <div className="workexp-duration-box">
+                                    <h3 className="workexp-duration"> {item.start} - {item.end}</h3>    
+                                </div>
                             </div>
-                            <div classname = "workexp-bullet-points-box">
+                            <div className = "workexp-bullet-points-box">
                                 {item.bulletPoints?.map((point, pointIndex) => (
                                     <div key={pointIndex} className="workexp-bullet-point">
                                         <span className="workexp-bullet-point-icon"> &#8226; </span>

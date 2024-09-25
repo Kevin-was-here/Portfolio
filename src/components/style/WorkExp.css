@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 83.333px;
+    padding-top: 83.333px;
     background-color: var(--primary-bg);
     margin: auto;
     gap: 32px;
@@ -18,20 +18,91 @@
     width: 100%;
 }
 
-.workexp-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px #8aecb0b3;
-}
-
 .workexp-section-heading {
     color: var(--secondary-text);
-    font-size: 30px; /* Use a specific size instead of 600 */
+    font-size: 30px;
     font-weight: 700;
     line-height: 50px;
-    text-align: center; /* Center the title */
+    text-align: center;
     margin-bottom: 20px;
+}
+
+.workexp-section-container {
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.workexp-section-card {
+    background-color: var(--primary-bg);
+    border: 1px solid #c7c6c6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px #f9f9f9d3;
+    transition: transform 0.2s, box-shadow 0.2s ease;
+    margin-bottom: 30px;
+}
+
+.workexp-section-card:hover {
+    transform: scale(1.05); /* Lightly enlarge on hover */
+    box-shadow: 0 4px 20px #f9f9f9d3; /* Deepen the shadow on hover */
+    z-index: 10;
+}
+
+.workexp-company-position-duration-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.workexp-company-position-box{
+    flex: 1;
+    width: 48%;
+}
+
+.workexp-duration-box {
+    width: 48%;
+}
+
+.workexp-company-title {
+    color: var(--main-text);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.workexp-position-title {
+    color: var(--secondary-text);
+    font-size: 16px;
+}
+
+.workexp-duration {
+    color: var(--secondary-text);
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+    text-align: right;
+}
+
+.workexp-bullet-points-box {
+    margin-top: 10px;
+}
+
+.workexp-bullet-point {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px; /* Space between bullet points */
+}
+
+.workexp-bullet-point-icon {
+    margin-right: 10px;
+    color: var(--secondary-text);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.workexp-bullet-point-text {
+    color: var(--main-text);
+    font-size: 14px;
+    line-height: 1.5;
 }

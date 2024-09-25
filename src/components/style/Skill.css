@@ -1,7 +1,7 @@
 .skills-section {
     display: flex;
     flex-direction: column; /* Ensures the content flows vertically */
-    padding-bottom: 50px;
+    padding-top: 83.333px;
     gap: 32px;
     background-color: var(--primary-bg);
     margin: auto;
