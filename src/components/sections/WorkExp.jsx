@@ -11,8 +11,8 @@ export default function WorkExp(){
                         <div key={index} className="workexp-section-card"> 
                             <div className="workexp-company-position-duration-box">
                                 <div className="workexp-company-position-box">
-                                    <h2 className="workexp-company-title"> {item.company} </h2>
-                                    <h3 className="workexp-position-title"> {item.position} </h3>
+                                    <h2 className="workexp-position-title"> {item.position} </h2>
+                                    <h3 className="workexp-company-title"> {item.company}</h3>
                                 </div>
                                 <div className="workexp-duration-box">
                                     <h3 className="workexp-duration"> {item.start} - {item.end}</h3>    

@@ -67,13 +67,13 @@
 
 .workexp-company-title {
     color: var(--main-text);
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .workexp-position-title {
-    color: var(--secondary-text);
-    font-size: 16px;
+    color: var(--main-text);
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .workexp-duration {

@@ -1,18 +1,29 @@
 {
     "workexp": [
         {
-        "company": "Really long name",
-        "position": "Position 1",
-        "start": "2019-01-01",
-        "end": "2020-01-01",
-        "bulletPoints": ["Point 1 is about how much efficiency you brought to the company", "Point 2 is about how much you learned from the company", "Point 3 is about how much you enjoyed working at the company"]
+        "company": "Noze",
+        "position": "ML Software Engineer Intern",
+        "start": "Janurary 2024",
+        "end": "Present",
+        "bulletPoints": [
+            "Researched and developed an unsupervised learning model to detect anomalies in the company's data, achieving a 95% detection rate and reducing false positives by 50%",
+            "Enhanced and maintained the company's most widely used data curation library, improving data processing efficiency by 30% and becoming the primary code owner", 
+            "Achieving over 90% integration testing coverage over the curation library code base and led the adoption of Test-Driven Development (TDD) within the machine learning engineering team's practices", 
+            "Developed 10+ key features and lead efforts to diagnose and resolve numerous bugs, increasing the functionality and code quality by 20%"
+        ]
         },
         {
-        "company": "Company 2",
-        "position": "Position 2",
-        "start": "2020-01-01",
-        "end": "2021-01-01",
-        "bulletPoints": ["Point 1 is about how much efficiency you brought to the company", "Point 2 is about how much you learned from the company", "Point 3 is about how much you enjoyed working at the company"]
+        "company": "ATCO Electric",
+        "position": "Software Engineering Co-op Student",
+        "start": "Janurary",
+        "end": "August 2023",
+        "bulletPoints": [
+            "Spearheaded the redesign and migration of the team's database system from excel, AssurX and IBM Maximo DB applications to a new internal database to manage over $1Bn critical infrastructure assets",
+            "Achieved 100% vulnerability detection rate for the security patch evaluation process by utilizing similarity search algorithms and automating the process through Selenium",
+            "Built dynamic UI prototypes in Figma and using PostgreSQL, Python, and Tkinter to realize the new database",
+            "Accomplished 99% database uptime through robust error-handling",
+            "Designed low latency queries (<10ms) using SQL optimizations like indexes and materialized views"
+        ]
         }
     ]
 }
