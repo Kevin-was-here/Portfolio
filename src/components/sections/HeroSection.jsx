@@ -11,13 +11,13 @@ export default function HeroSection(){
                     <p className="hero-section-description">To be creative, to build things, to have fun.</p>
                 </div>
                 <div className="hero-section-socials">
-                    <a href='https://mail.google.com/mail/u/0/?fs=1&to=xuyang4@ualberta.ca&tf=cm' target="_blank"> 
+                    <a href='https://mail.google.com/mail/u/0/?fs=1&to=xuyang4@ualberta.ca&tf=cm' target="_blank" rel="noreferrer"> 
                         <img src="./gmail.png" alt="gmail"/>
                     </a>
-                    <a href='https://www.linkedin.com/in/xuyang-huang/' target="_blank">
+                    <a href='https://www.linkedin.com/in/xuyang-huang/' target="_blank" rel="noreferrer">
                         <img src="./linkedin.png" alt="linkedin" />
                     </a>
-                    <a href='https://github.com/Kevin-was-here' target="_blank">
+                    <a href='https://github.com/Kevin-was-here' target="_blank" rel="noreferrer">
                         <img src="./github.png" alt="github" />
                     </a>
                 </div>
