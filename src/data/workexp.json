@@ -6,8 +6,8 @@
         "start": "Janurary 2024",
         "end": "Present",
         "bulletPoints": [
-            "Researched and developed an unsupervised learning model to detect anomalies in the company's data, achieving a 95% detection rate and reducing false positives by 50%",
-            "Enhanced and maintained the company's most widely used data curation library, improving data processing efficiency by 30% and becoming the primary code owner", 
+            "Researched and developed an unsupervised learning models to detect anomalies in the company's data.",
+            "Improving data processing efficiency by 30% on the company's most widely used data curation library, and becoming the primary code owner for enhancement and maintenance of the library", 
             "Achieving over 90% integration testing coverage over the curation library code base and led the adoption of Test-Driven Development (TDD) within the machine learning engineering team's practices", 
             "Developed 10+ key features and lead efforts to diagnose and resolve numerous bugs, increasing the functionality and code quality by 20%"
         ]
