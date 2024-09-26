@@ -2,19 +2,19 @@
     "projects":[
         {
             "id":1,
-            "title":"python",
-            "src":"./python.png",
-            "tools": ["Python","C++","React"],
-            "description":"Lorem ipsum dolor sit sit ut facilis dicta culpa necessitatibus non hic optio voluptate quos eum quisquam doloremque omnis voluptas illo cumque, assumenda reiciendis.",
-            "link": "github.com"
+            "title":"Gradient",
+            "src":"./gradient.png",
+            "tools": ["Python","Javascript","React","Material UI","Firebase", "Websockets"],
+            "description":"Gradient is a web application aimed towards students for making studying more enjoyable. It has a built-in Pomodoro timer hooked to a leaderboard, and an AI tool that summarizes and improves formatting of study notes.",
+            "link": "https://github.com/Sugarnetes/Gradient"
         },
         {
             "id":2,
-            "title":"python",
-            "src":"./python.png",
-            "tools": ["Python","C++","React","Rust"],
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem sit ut  non hic optio voluptate quos eum quisquam doloremque omnis voluptas illo cumque, assumenda reiciendis.",
-            "link": "github.com"
+            "title":"Omninventory",
+            "src":"./OMNI.png",
+            "tools": ["Java","Android Studio","Junit","Firebase","Figma"],
+            "description":"Omninventory is an Android application that allows users to keep track of their inventory. It has a built-in barcode scanner, and a feature that allows users to share their inventory with others.",
+            "link": "https://github.com/CMPUT301F23T05/Omninventory"
         },
         {
             "id":3,

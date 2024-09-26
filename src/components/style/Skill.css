@@ -50,10 +50,9 @@
     box-shadow: 0 2px 4px #f9f9f9d3;
 }
 
-.skills-section-img {
-    width: 60px; /* Set a specific size for the skill icons */
-    height: 60px;
-    object-fit: contain; /* Ensure the images are contained within the area */
+.skill-section-block > img{
+    width: 80px;
+    height: 80px;
 }
 
 .skills-section-item-text {

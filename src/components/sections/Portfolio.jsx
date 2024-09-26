@@ -20,7 +20,8 @@ export default function Portfolio(){
                                 ))}
                         </div>
                         <div className="portfolio-section-card-description">{item.description}</div>
-                        <a className="portfolio-section-card-github-img" href={item.link}><img src='./github.png' alt='github'/>
+                        <a className="portfolio-section-card-github-img" href={item.link} target="_blank" rel="noreferrer">
+                            <img src='./github.png' alt='github'/>
                         </a>
                     </div>
                 ))}

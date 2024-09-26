@@ -2,43 +2,63 @@
     "skills":[
         {
             "id":1,
-            "title":"python",
+            "title":"Python",
             "src":"./python.png"
         },
         {
             "id":2,
-            "title":"pandas",
+            "title":"Pandas",
             "src":"./pandas.png"
         },
         {
             "id":3,
-            "title":"postgresql",
+            "title":"PostgreSQL",
             "src":"./postgresql.png"
         },
         {
             "id":4,
-            "title":"selenium",
+            "title":"Selenium",
             "src":"./selenium.png"
         },
         {
             "id":5,
-            "title":"java",
+            "title":"Java",
             "src":"./java.png"
         },
         {
             "id":6,
-            "title":"android",
+            "title":"Android",
             "src":"./android.png"
         },
         {
             "id":7,
-            "title":"react",
+            "title":"React",
             "src":"./react.png"
         },
         {
             "id":8,
-            "title":"git",
+            "title":"Git",
             "src":"./git.png"
+        },
+        {
+            "id":9,
+            "title":"Rust",
+            "src":"./rust-logo.png"
+        },
+        {
+            "id":10,
+            "title":"HTML",
+            "src":"./html.png"
+        },
+        {
+            "id":11,
+            "title":"CSS",
+            "src":"./css.png"
+        },
+        {
+            "id":12,
+            "title":"Linux",
+            "src":"./Linux.png"
         }
     ]
 }

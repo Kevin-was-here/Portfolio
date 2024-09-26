@@ -32,10 +32,12 @@
     gap: 16px; /* Add spacing between the cards */
     justify-content: center; /* Center the cards within the container */
     width: 85%;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
 }
 
+
+/*Not quite mobile friendly :(*/
 .portfolio-section-card {
     display: flex;
     flex-direction: column;
@@ -43,8 +45,10 @@
     text-align: center;
     background-color: var(--secondary-bg);
     padding: 20px;
-    min-height: 400px; /* Set a consistent minimum height */
-    max-height: 400px; /* Ensure cards don't stretch taller */
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 450px; /* Set a consistent minimum height */
+    max-height: 450px; /* Ensure cards don't stretch taller */
     overflow: hidden;
     box-shadow: 0 0 15px #8aecb0b3; /* Add some depth to the cards */
     border-radius: 8px; /* Optional: add rounded corners */
@@ -60,6 +64,8 @@
 
 .portfolio-section-project-title {
     color: var(--main-text);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .portfolio-section-card-tools {
@@ -102,4 +108,15 @@
 .portfolio-section-card-github-img > img {
     width: 24px; /* Set a fixed width to make it visually clear */
     height: 24px; /* Ensure it's square */
+}
+
+.portfolio-section-card-img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.portfolio-section-card-img > img {
+    width: 100%;
+    height: 100%;
 }
