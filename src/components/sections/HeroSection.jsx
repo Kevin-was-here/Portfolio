@@ -6,8 +6,8 @@ export default function HeroSection(){
             <div className="hero-section-content-box">
                 <div className="hero-section-content">
                     <h2 className="hero-section-title">Hi I'm Kevin</h2>
-                    <h1 className="hero-section-title-color"> Database Engineer</h1>
-                    <h1 className="hero-section-secondary-title-color"> Software Developer </h1>
+                    <h1 className="hero-section-title-color">Software Developer</h1>
+                    <h1 className="hero-section-secondary-title-color">Data Engineer</h1>
                     <p className="hero-section-description">To be creative, to build things, to have fun.</p>
                 </div>
                 <div className="hero-section-socials">

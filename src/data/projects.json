@@ -18,19 +18,35 @@
         },
         {
             "id":3,
-            "title":"python",
-            "src":"./python.png",
-            "tools": ["Python","C++","React"],
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem sit ut facilis dicta culpa necessitatibus non hic optio voluptate quos eum quisquam doloremque omnis voluptas illo cumque, assumenda reiciendis.",
-            "link": "github.com"
+            "title":"Lock My Game",
+            "src":"./lock.png",
+            "tools": ["Python","PySimpleGui"],
+            "description":"Lock My Game is a Python application that allows users to lock their apps for a certain amonut of time. It has a built-in timer that prevents selected apps from opening for a set time to improve focus.",
+            "link": "https://github.com/Kevin-was-here/Lock-My-Game"
         },
         {
             "id":4,
-            "title":"python",
-            "src":"./python.png",
-            "tools": ["Python","C++","React"],
-            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorem sit ut facilis dicta culpa necessitatibus non hic optio voluptate quos eum quisquam doloremque omnis voluptas illo cumque, assumenda reiciendis.",
-            "link": "github.com"
+            "title":"Creddi",
+            "src":"./Creddi.png",
+            "tools": ["React","Material UI","Typescript","PostgreSQL"],
+            "description":"Creddi is a web application that allows students keep track of their credit for the CompE Club Store. It has a built-in credit calculator that helps students keep track of how much they owe. With an authentication system, so students can log in and see their credit.",
+            "link": "https://github.com/UAlbertaCompEClub/credit-tracking"
+        },
+        {
+            "id":5,
+            "title":"AlbertaLoop Software Team",
+            "src":"./abloop.png",
+            "tools": ["C++","Teensy 3.6", "UDP", "GPS Module", "CAN Bus", "Sensor Programming"],
+            "description":"AlbertaLoop is a team that is working on a Hyperloop pod for the SpaceX Hyperloop competition. The software team is responsible for the communication between the sensors and the main computer, as well as the communication between the main computer and the control system.",
+            "link": "https://github.com/albertaloop/T_SWE_2019_2020"
+        },
+        {
+            "id":6,
+            "title":"Sustainability Task List",
+            "src":"./sustainable.png",
+            "tools": ["Python","Flask","HTML", "CSS", "SQLite"],
+            "description":"Sustainability Task List is a web application that gamify doing sustainable tasks. It has a built-in task list that allows users to add, delete, update tasks, and assign points to doing these tasks. It also has a built-in calendar that allows users to see their tasks on a calendar.",
+            "link": "https://github.com/Kevin-was-here/SDG-Tasks"
         }
     ]
 }
